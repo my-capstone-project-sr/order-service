@@ -71,8 +71,8 @@
 <!-- <dependency>
     <groupId>io.keen</groupId>
     <artifactId>keen-client-java-core</artifactId>
-    <version>5.0.2</version>
-</dependency>-->
+    <version>6.0.0</version>
+</dependency>
 
 
 
