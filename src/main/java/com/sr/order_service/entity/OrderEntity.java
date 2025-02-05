@@ -22,18 +22,21 @@ public class OrderEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="order_id")
-	public int orderId;
+	private int orderId;
 	
 	@Column(name="order_status")
-	public String orderStatus;
+	private String orderStatus;
 	
 	@Column(name="order_date")
-	public LocalDate orderDate;
+	private LocalDate orderDate;
 	
 	@Column(name="order_user_id")
-	public int orderUserId;
+	private int orderUserId;
 	
 	@Column(name="order_store_id")
-	public int orderStoreId;
+	private int orderStoreId;
+
+	@Column(name="total_amount")
+	private double totalAmount;
 
 }
