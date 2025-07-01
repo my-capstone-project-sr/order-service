@@ -21,6 +21,7 @@ public class OrderService {
 	//  @Autowired
 	//     KeenService keenService;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 	    // public OrderEntity completeOrder(OrderEntity order) {
 	    //     OrderEntity savedOrder = orderRepository.save(order);
@@ -89,6 +90,25 @@ public class OrderService {
         //             }
         //             return totalAmount;
         //         }
+=======
+
+	    // public OrderEntity completeOrder(OrderEntity order) {
+	    //     OrderEntity savedOrder = orderRepository.save(order);
+
+	    //     // Log order details to Keen.io
+	    //     Map<String, Object> orderData = new HashMap<>();
+	    //     orderData.put("orderId", savedOrder.getOrderId());
+	    //     orderData.put("orderStatus", savedOrder.getOrderStatus());
+	    //     orderData.put("orderDate", savedOrder.getOrderDate());
+	    //     orderData.put("orderStoreId", savedOrder.getOrderStoreId());
+	    //     orderData.put("orderUserId", savedOrder.getOrderUserId());
+	    //     // orderData.put("totalAmount", savedOrder.getTotalAmount()); // Ensure OrderEntity has this field
+
+	    //     keenService.logEvent("orders", orderData);
+
+	    //     return savedOrder;
+	    // }
+>>>>>>> Stashed changes
 =======
 
 	    // public OrderEntity completeOrder(OrderEntity order) {

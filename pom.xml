@@ -72,8 +72,13 @@
     <groupId>io.keen</groupId>
     <artifactId>keen-client-java-core</artifactId>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <version>6.0.0</version>
 </dependency>
+=======
+    <version>5.0.2</version>
+</dependency>-->
+>>>>>>> Stashed changes
 =======
     <version>5.0.2</version>
 </dependency>-->
