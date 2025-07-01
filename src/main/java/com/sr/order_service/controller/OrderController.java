@@ -215,8 +215,11 @@ public class OrderController {
 	//      OrderEntity completedOrder = orderService.completeOrder(order);
 	//      return ResponseEntity.ok(completedOrder);
 	//  }
+<<<<<<< Updated upstream
     @Autowired
     OrderService orderService;
+=======
+>>>>>>> Stashed changes
 
     @PostMapping
     public ResponseEntity<OrderEntity> createOrder(@RequestBody OrderEntity order) {
